@@ -1,0 +1,140 @@
+@font-face {
+    font-family: 'xilosaxilosa';
+    src: url('../fonts/xilosa-webfont.eot');
+    src: url('../fonts/xilosa-webfont.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/xilosa-webfont.woff2') format('woff2'),
+        url('../fonts/xilosa-webfont.woff') format('woff'),
+        url('../fonts/xilosa-webfont.ttf') format('truetype'),
+        url('../fonts/xilosa-webfont.svg#xilosaxilosa') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    font-family: 'xilosaxilosa';
+}
+
+body {
+    font-family: 'xilosaxilosa';
+}
+
+header {
+    font-family: 'xilosaxilosa';
+}
+
+h1 {
+    color: #fff;
+}
+
+h2 {
+    color: #fff;
+}
+
+nav {
+    position: absolute;
+    left: 0px;
+    top: 2%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3vh;
+    z-index: 3;
+    padding: 1%;
+    text-shadow: -1px 1px 10px rgba(165, 201, 206, 1);
+}
+
+nav:hover {
+    background-color: rgba(29, 33, 38, 0.9);
+    transition: 0.5s ease-in;
+    text-shadow: none;
+}
+
+nav a {
+    color: #6D4573;
+    text-decoration: none !important;
+}
+
+nav a:hover {
+    color: #fff;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    width: 90%;
+    justify-content: center;
+    display: flex;
+}
+
+.nav-link {
+    list-style: none;
+}
+
+.s1 {
+    background-image: url(../img/lampiao-fogo.gif);
+    background-size: cover;
+    background-position: center;
+}
+
+.front-cover {
+    z-index: 1;
+
+}
+
+.section h1 {
+    z-index: 2;
+    font-size: 8vh;
+    line-height: 8vh;
+    text-align: center;
+    padding: 0px 10px;
+    text-shadow: black;
+}
+
+.section h2 {
+    z-index: 2;
+    left: 50%;
+    top: 50%;
+    text-align: center;
+    padding: 0px 10px;
+}
+
+.s2 {
+    background-color: black;
+}
+
+footer {
+    font-family: 'xilosaxilosa', sans-serif;
+}
+
+#social-icons {
+    font-family: 'xilosaxilosa', sans-serif;
+}
+
+#myVideo {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: 10;
+}
+
+#myVideo {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-size: 100% 100%;
+    background-color: black;
+    /* in case the video doesn't fit the whole page*/
+    background-image: /* our video */;
+    background-position: center center;
+    background-size: contain;
+    object-fit: cover;
+    /*cover video background */
+    z-index: 3;
+}
